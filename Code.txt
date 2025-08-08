@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() 
+{
+    int pass = 1234, input;
+    printf("Enter password: ");
+    scanf("%d", &input);
+    if (input == pass) printf("Access OK\n");
+    else printf("Access Denied\n");
+}
